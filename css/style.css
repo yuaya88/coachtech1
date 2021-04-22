@@ -1,0 +1,45 @@
+h1 {
+  color:rgb(35, 14, 139);
+margin: 30px;
+}
+#nav{
+list-style: none;
+display: flex;
+justify-content: flex-end;
+margin: 0px 0px 60px 0px;
+} 
+#nav li{
+width: 120px;
+text-align: right;
+}
+#nav li a{
+  text-decoration: none;
+  margin: 0px 0px 0px 0px;
+}
+
+.relative_img {
+  position: relative;
+  margin: 0 0 0 auto;
+  display: block;
+  width: 50%;
+  height: 50%;
+  z-index: 5;
+}
+
+.item {
+
+  position: absolute;
+  width: 80%;
+  height: 20%;
+  background: rgb(8, 8, 110);
+  top: 80%;
+  right: 20%;
+  z-index: 1;
+}
+h2{
+  position: absolute;
+  font-size: 50px;
+  z-index: 7;
+  top: 72%;
+
+}
