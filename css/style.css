@@ -4,6 +4,9 @@ a {
 }
 .header {
   display: flex;
+  width: 100%;
+  height: 20%;
+
 
 }
 .header-ttl {
@@ -18,37 +21,40 @@ a {
   text-align: right;
   text-decoration: none;
   padding: 10px 0 0 300px;
+  position: absolute;
+  right: 0;
+
 }
 .header-nav-item {
   margin-right: 30px;
-  margin-bottom: 50px;
+
 }
 .relative {
   position: relative;
 }
 .relative_img {
+  position: relative;
   margin: 0 0 0 auto;
   display: block;
   width: 50%;
+  z-index: 10;
 }
 
 .blue-wrap {
   position: absolute;
   top: 80%;
+  bottom: 0;
+  width: 80%;
+  z-index: 1;
 }
 .item {
   position: absolute;
   width: 80vw;
   height: 20vh;
   background: rgb(8, 8, 110);
-  z-index: 1;
 }
 
 
 h2 {
   font-size: 50px;
-  z-index: 7;
-  top: 72%;
-
-
 }
